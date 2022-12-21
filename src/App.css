@@ -1,1 +1,18 @@
 /* add your styles here */
+h2 {
+  text-align: center;
+}
+#grid {
+  display: grid;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 0 auto;
+}
+.image {
+  max-height: 400px;
+  margin: 0 auto;
+  min-width: 100px;
+}
